@@ -11,5 +11,5 @@ Noteer eveneens welke aanpassingen je aan welke configuratiebestanden je hebt do
 ### Eigen scripts en programma's
 Sla je als aparte bestanden op in deze repository
 ## Afbeelding toevoegen
-![dit is een afbeelding van interne](https://myoctocat.com/asset/images/base-octocat.svg)
+![dit is een afbeelding van internet](https://myoctocat.com/assets/images/base-octocat.svg)
 ![dit is een afbeelding uit onze image map](images/Github-Mark-64px.png)

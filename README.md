@@ -46,7 +46,7 @@ Html.<br>
 Javascript.<br>
 Voorbeeld => time format on screen
 
-zie javascript
+zie javascript.js
  
 
 ## Escape room Console

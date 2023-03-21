@@ -27,10 +27,10 @@ Het escape spel is volledig bestuurbaar en opvolgbaar via de escape room console
 
 
 ## Bronnen
-Youtube voorbeelden/help node red.
+Youtube voorbeelden/help node red.<br>
 Arduino.
 ## Hardware
-raspberry pi 
+raspberry pi.<br> 
 esp8266 en esp32
 ## Software
 node red en Mosquitto mqtt broker op raspberry pi.

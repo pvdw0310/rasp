@@ -26,9 +26,9 @@ Het escape spel is volledig bestuurbaar en opvolgbaar via de escape room console
   
 
 
-##Bronnen
+## Bronnen
 Youtube voorbeelden/help node red.
-Arduino 
+Arduino.
 ## Hardware
 raspberry pi 
 esp8266 en esp32

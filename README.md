@@ -46,7 +46,7 @@ Html.<br>
 Javascript.<br>
 Voorbeeld => time format on screen
 
-// msg.timeRemaining is in milliseconds
+'''// msg.timeRemaining is in milliseconds
 if (msg.timeRemaining < 0) {       // is de tijd voorbij?
     msg.timeRemaining = 0;
 }
@@ -64,7 +64,7 @@ node.status({fill:"green", shape:"dot", text:msg.timerText});
 
 // Forward the message along the flow
 return msg;
-
+'''
  
 
 ## Escape room Console

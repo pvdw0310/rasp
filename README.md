@@ -1,6 +1,14 @@
-# raspberry-pi-cursus-project
+# raspberry-pi-escape-room-controller
 ## Beschrijving
-Beschrijf en plan hier uw project
+Voor de escape room controller maken we gebruik van raspberry pi als hoofd computer.
+Op de raspberry pi werd er extra node red en een mqtt broker geinstalleerd.
+Ieder escape spel is uitgerust met een afzonderlijke ESP8266 die geprogrameerd wordt via Arduino IDE.
+Het escape spel is volledig bestuurbaar en opvolgbaar via de console in node red.
+  - aan/uit schakelen van het spel.
+  - controle van de draadloze verbinding en doorgeven van de toestand.
+  - iedere verandering van het spel kan gevolgd worden op afstand via de node red console
+  - 
+
 ##Bronnen
 Noteer hier uw inspiratie, hardware en sotware bronne.
 ## Hardware

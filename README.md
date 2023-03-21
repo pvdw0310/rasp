@@ -37,5 +37,6 @@ node red en Mosquitto mqtt broker op raspberry pi.
 ### Eigen scripts en programma's
 Sla je als aparte bestanden op in deze repository
 ## Afbeelding toevoegen
-![dit is een afbeelding van internet](https://myoctocat.com/assets/images/base-octocat.svg)
-![dit is een afbeelding uit onze image map](images/GitHub-Mark-64px.png)
+![dit is een afbeelding uit onze image map](images/console.jpg)
+![dit is een afbeelding uit onze image map](images/escaperoom.jpg)
+![dit is een afbeelding uit onze image map](images/nodered.jpg)

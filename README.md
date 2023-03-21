@@ -28,15 +28,44 @@ Het escape spel is volledig bestuurbaar en opvolgbaar via de escape room console
 
 ## Bronnen
 Youtube voorbeelden/help node red.<br>
-Arduino.
+Arduino.<br>
+w3school
+
 ## Hardware
 raspberry pi.<br> 
 esp8266 en esp32
+
 ## Software
-node red en Mosquitto mqtt broker op raspberry pi.
+node red en Mosquitto mqtt broker op raspberry pi.<br>
+Arduino IDE.<br>
+
 
 ### Eigen scripts en programma's
-Sla je als aparte bestanden op in deze repository
+C-programmeer taal.<br>
+Html.<br>
+Javascript.<br>
+Voorbeeld => time format on screen
+
+// msg.timeRemaining is in milliseconds
+if (msg.timeRemaining < 0) {       // is de tijd voorbij?
+    msg.timeRemaining = 0;
+}
+
+var t = msg.timeRemaining / 1000;
+var h = Math.floor(t / 3600);
+var m = Math.floor(t % 3600 / 60);
+var s = Math.floor(t % 3600 % 60);
+
+// Format into hh:mm:ss
+msg.timerText = ("0" + h).slice(-2) + ":" + ("0" + m).slice(-2) + ":" + ("0" + s).slice(-2);
+
+// Update the editor node
+node.status({fill:"green", shape:"dot", text:msg.timerText});
+
+// Forward the message along the flow
+return msg;
+
+ 
 
 ## Escape room Console
 ![dit is een afbeelding uit onze image map](images/console.jpg)

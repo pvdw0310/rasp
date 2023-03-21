@@ -15,6 +15,7 @@ De escape room console heeft een algemene sturing.
   - De hints kunnen voorgeschreven hints zijn die te selecteren zijn uit een tabel of die kunnen adhoc ingegeven worden.
 
 Ieder escape spel is uitgerust met een afzonderlijke ESP8266 die geprogrameerd wordt via Arduino IDE.
+Alle draadloze communicatie tussen de esp8266 en de raspberry pi wordt doorgegeven via mqtt.
 Het escape spel is volledig bestuurbaar en opvolgbaar via de escape room console.
   - Aan/uit schakelen van het spel.
   - Controle van de draadloze verbinding en doorgeven van de toestand waarin het spel zich bevind.
@@ -37,6 +38,9 @@ node red en Mosquitto mqtt broker op raspberry pi.
 ### Eigen scripts en programma's
 Sla je als aparte bestanden op in deze repository
 ## Afbeelding toevoegen
+Escape room Console
 ![dit is een afbeelding uit onze image map](images/console.jpg)
+Scherm in de speelruimte
 ![dit is een afbeelding uit onze image map](images/escaperoom.jpg)
+Een Node-red flow voor het scherm in de speelruimte
 ![dit is een afbeelding uit onze image map](images/nodered_flow.jpg)

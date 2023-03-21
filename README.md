@@ -13,6 +13,7 @@ De escape room console heeft een algemene sturing.
   - Vanuit de controle ruimte kunnen er hints gegeven worden aan de spelers die dan verschijnt op het spelers scherm.
   - De hint verschijnt ongeveer 15 sec, waarna die dan terug verwijnt. De hint wordt ook voorgelezen door text to speech.
   - De hints kunnen voorgeschreven hints zijn die te selecteren zijn uit een tabel of die kunnen adhoc ingegeven worden.
+  - Via de console kan er een video gestart worden die afgespeeld wordt op het spelers scherm.
 
 Ieder escape spel is uitgerust met een afzonderlijke ESP8266 die geprogrameerd wordt via Arduino IDE.
 Alle draadloze communicatie tussen de esp8266 en de raspberry pi wordt doorgegeven via mqtt.
@@ -41,11 +42,11 @@ Arduino IDE.<br>
 
 
 ### Eigen scripts en programma's
-C-programmeer taal.<br>
-Html.<br>
-Javascript.<br>
-Voorbeeld => time format on screen
+C-programmeer taal voor de esp8266 en esp32.<br>
+Html voor de scherm output.<br>
+Javascript voor programmeren van node red functies.<br>
 
+Voorbeeld => time format on screen
 zie javascript.js
  
 

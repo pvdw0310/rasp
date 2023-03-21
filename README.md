@@ -46,8 +46,7 @@ C-programmeer taal voor de esp8266 en esp32.<br>
 Html voor de scherm output.<br>
 Javascript voor programmeren van node red functies.<br>
 
-Voorbeeld => time format on screen
-zie javascript.js
+Voorbeeld => time format on screen => zie javascript.js
  
 
 ## Escape room Console

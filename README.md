@@ -39,4 +39,4 @@ Sla je als aparte bestanden op in deze repository
 ## Afbeelding toevoegen
 ![dit is een afbeelding uit onze image map](images/console.jpg)
 ![dit is een afbeelding uit onze image map](images/escaperoom.jpg)
-![dit is een afbeelding uit onze image map](images/nodered.jpg)
+![dit is een afbeelding uit onze image map](images/nodered_flow.jpg)

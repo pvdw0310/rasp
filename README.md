@@ -37,10 +37,10 @@ node red en Mosquitto mqtt broker op raspberry pi.
 
 ### Eigen scripts en programma's
 Sla je als aparte bestanden op in deze repository
-## Afbeelding toevoegen
-Escape room Console
+
+##Escape room Console
 ![dit is een afbeelding uit onze image map](images/console.jpg)
-Scherm in de speelruimte
+##Scherm in de speelruimte
 ![dit is een afbeelding uit onze image map](images/escaperoom.jpg)
-Een Node-red flow voor het scherm in de speelruimte
+##Een Node-red flow voor het scherm in de speelruimte
 ![dit is een afbeelding uit onze image map](images/nodered_flow.jpg)

@@ -12,6 +12,7 @@ Met de escape room console hebben we een algemene sturing over de escape room.
   - Op het scherm in de speelruimte wordt de nog te spelen tijd constant weergeven.
   - Vanuit de controle ruimte kunnen er hints gegeven worden aan de spelers die dan verschijnt op het spelers scherm.
   - De hint verschijnt ongeveer 10 sec, waarna die dan terug verdwijnt. De hint wordt ook voorgelezen door text to speech.
+  - Het volume van de text to speech kan aangepast worden via de console.
   - De hints kunnen voorgeschreven hints zijn, die te selecteren zijn uit een tabel of die kunnen adhoc ingegeven worden.
   - Via de console kan er een video gestart worden die afgespeeld wordt op het spelers scherm.
 

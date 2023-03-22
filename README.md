@@ -11,7 +11,7 @@ De escape room console heeft een algemene sturing.
   - Er kan extra speeltijd gegeven worden of straftijd afgetrokken worden in stappen van 5 minuten.
   - Op het scherm in de speelruimte wordt de nog te spelen tijd constant weergeven.
   - Vanuit de controle ruimte kunnen er hints gegeven worden aan de spelers die dan verschijnt op het spelers scherm.
-  - De hint verschijnt ongeveer 15 sec, waarna die dan terug verwijnt. De hint wordt ook voorgelezen door text to speech.
+  - De hint verschijnt ongeveer 10 sec, waarna die dan terug verdwijnt. De hint wordt ook voorgelezen door text to speech.
   - De hints kunnen voorgeschreven hints zijn die te selecteren zijn uit een tabel of die kunnen adhoc ingegeven worden.
   - Via de console kan er een video gestart worden die afgespeeld wordt op het spelers scherm.
 
@@ -21,7 +21,7 @@ Het escape spel is volledig bestuurbaar en opvolgbaar via de escape room console
   - Aan/uit schakelen van het spel.
   - Controle van de draadloze verbinding en doorgeven van de toestand waarin het spel zich bevind.
   - Iedere verandering van het spel kan gevolgd worden op afstand op de escape room console.
-  - Als het spel is opgelost gaat het spelslot open en wordt ook getoond door een open slot op scherm.
+  - Als het spel is opgelost gaat het spelslot open en dit wordt ook getoond door een open slot op de console.
   - Kan de speler het spel niet oplossen, is er een toets op de console om het spel in "Auto solve" te plaatsen en het spel lost zichzelf op. Dit door alle stappen te doorlopen die nog nodig zijn om het spel op te lossen. Dit in vertraagde snelheid.
   - Reset van het spel.
   
@@ -29,7 +29,7 @@ Het escape spel is volledig bestuurbaar en opvolgbaar via de escape room console
 
 ## Bronnen
 Youtube voorbeelden/help node red.<br>
-Arduino.<br>
+Mqtt en Arduino voorbeelden.<br>
 w3school
 
 ## Hardware
@@ -41,9 +41,10 @@ node red en Mosquitto mqtt broker op raspberry pi.<br>
 Arduino IDE.<br>
 
 
+
 ### Eigen scripts en programma's
 C-programmeer taal voor de esp8266 en esp32.<br>
-Html voor de scherm output.<br>
+Html voor de scherm layout.<br>
 Javascript voor programmeren van node red functies.<br>
 
 Voorbeeld => time format on screen => zie javascript.js

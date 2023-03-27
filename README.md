@@ -37,7 +37,7 @@ w3school
 
 ## Hardware
 raspberry pi.<br> 
-esp8266 en esp32
+esp8266 en esp32.
 
 ## Software
 node red en Mosquitto mqtt broker op raspberry pi.<br>

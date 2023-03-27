@@ -8,10 +8,12 @@ Op de raspberry pi werd als extra node red en een mqtt broker geinstalleerd.
 Met de escape room console hebben we een algemene sturing over de escape room.
   - Er kunnen verschillende escape rooms gecontroleerd worden, met verschillende speeltijden en verschillende spelletjes.
   - Start/stop en reset van de totale speeltijd van de escape room.
+  - Bij de start/stop van de speeltijd wordt via text to speech (tts) een melding gegeven in de espcape room.
+  - Is de speeltijd lager de 10 minuten dan worden de spelers automatisch verwittigd dat het einde van het spel nadert.
   - Er kan extra speeltijd gegeven worden of straftijd afgetrokken worden in stappen van 5 minuten.
   - Op het scherm in de speelruimte wordt de nog te spelen tijd constant weergeven.
   - Vanuit de controle ruimte kunnen er hints gegeven worden aan de spelers die dan verschijnt op het spelers scherm.
-  - De hint verschijnt ongeveer 10 sec, waarna die dan terug verdwijnt. De hint wordt ook voorgelezen door text to speech.
+  - De hint verschijnt ongeveer 10 sec, waarna die dan terug verdwijnt. De hint wordt ook voorgelezen door text to speech (tts).
   - Het volume van de text to speech kan aangepast worden via de console.
   - De hints kunnen voorgeschreven hints zijn, die te selecteren zijn uit een tabel of die kunnen adhoc ingegeven worden.
   - Via de console kan er een video gestart worden die afgespeeld wordt op het spelers scherm.

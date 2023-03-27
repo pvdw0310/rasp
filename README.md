@@ -17,7 +17,6 @@ Met de escape room console hebben we een algemene sturing over de escape room.
   - De hint wordt vooraf gegaan door een gong, om de spelers te verwittigen, dat er een melding op scherm komt.
   - De hint verschijnt ongeveer 10 sec, waarna die dan terug verdwijnt. De hint wordt ook voorgelezen door text to speech (tts).
   - De hints kunnen voorgeschreven hints zijn, die te selecteren zijn uit een tabel of die kunnen adhoc ingegeven worden.
-  - Via de console kan er een video gestart worden die afgespeeld wordt op het spelers scherm.
 
 Ieder escape spel is uitgerust met een afzonderlijke ESP8266 die geprogrameerd wordt via Arduino IDE.
 Alle draadloze communicatie tussen de esp8266 en de raspberry pi wordt doorgegeven via mqtt.
